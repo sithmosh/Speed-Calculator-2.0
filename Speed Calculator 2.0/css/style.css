@@ -1,0 +1,100 @@
+body {
+    background-color: #711c91;
+  font-family: 'Orbitron', sans-serif;
+  color: #091833;
+  /* background-image: \\SPORL-fs1\sp ORL file share\All Teams\ECOMM\Speed Calculator\HTML\360_F_318304464_0dmt7x9Q7ERSnCfcODSCOXXrtmL2dNAT.jpg */
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+button {
+  height: 20px;
+  position: relative;
+  background-color: #ea00d9;
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+  color: #091833;
+  text-transform: uppercase;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 0px 1px white;
+}
+button:hover {
+  background-color: #0abdc6;
+  color: #091833;
+  font-weight: bolder;
+}
+/* button:active{
+  background-color: #0abdc6;
+}
+button:focus{
+  background-color: #0abdc6;
+} */
+.shoppers {
+  width: 50%;
+  background-color: #133e7c;
+  font-family: 'Orbitron', sans-serif;
+  color: #091833;
+}
+.bottom {
+  background-color: #0abdc6;
+  width: 30%;
+  font-size: 2rem;
+}
+.uph{
+  font-weight: bolder;
+}
+.upm {
+  font-weight: bolder;
+}
+.more-bottom-er {
+  background-color: #0abdc6;
+  width: 30%;
+  font-size: 2rem;
+}
+.pick-speed-generate {
+  font-size: 2rem;
+  height: 45px;
+  width: 285px;
+}
+.reset {
+  font-size: 2rem;
+  height: 45px;
+  width: 285px;
+}
+#units-left-input {
+  background-color: #0abdc6;
+  width: 30%;
+  font-size: 2rem;
+  border: none;
+  text-align: center;
+}
+#units-left-submit {
+  height: 20px;
+  position: relative;
+  background-color: #ea00d9;
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+  color: #091833;
+  text-transform: uppercase;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 0px 1px white;
+}
+.time-to-complete {
+  background-color: #0abdc6;
+  width: 30%;
+  font-size: 2rem;
+  border: none;
+}
+.time-to-complete-header {
+  font-weight: bolder;
+}
