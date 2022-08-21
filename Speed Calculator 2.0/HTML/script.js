@@ -239,6 +239,9 @@ var sum = 0;
 function upm(x){
   return Math.round(x / 60);
 };
+function resetButtonColor (btn){
+  document.getElementById(btn).style.backgroundColor = '#ea00d9';
+};
 pickSpeedGenerate.addEventListener('click', function (){
 for (let i = 0; i < tmList2.length; i++) {
     sum += tmList2[i];
@@ -252,6 +255,40 @@ function reset(){
   pickSpeed.textContent = '???';
   pickSpeed2.textContent = '???';
   time.textContent = '???'
+  resetButtonColor('btn-AV');
+  resetButtonColor('btn-AR');
+  resetButtonColor('btn-ALF');
+  resetButtonColor('btn-AG');
+  resetButtonColor('btn-AH');
+  resetButtonColor('btn-BH');
+  resetButtonColor('btn-CO');
+  resetButtonColor('btn-CD');
+  resetButtonColor('btn-CP');
+  resetButtonColor('btn-CS');
+  resetButtonColor('btn-DW');
+  resetButtonColor('btn-EW');
+  resetButtonColor('btn-EA');
+  resetButtonColor('btn-FB');
+  resetButtonColor('btn-GL');
+  resetButtonColor('btn-GA');
+  resetButtonColor('btn-JV');
+  resetButtonColor('btn-JM');
+  resetButtonColor('btn-JS');
+  resetButtonColor('btn-KC');
+  resetButtonColor('btn-LB');
+  resetButtonColor('btn-LH');
+  resetButtonColor('btn-MG');
+  resetButtonColor('btn-MS');
+  resetButtonColor('btn-MB');
+  resetButtonColor('btn-MR');
+  resetButtonColor('btn-NR');
+  resetButtonColor('btn-NG');
+  resetButtonColor('btn-NE');
+  resetButtonColor('btn-SB');
+  resetButtonColor('btn-SC');
+  resetButtonColor('btn-SP');
+  resetButtonColor('btn-TG');
+  resetButtonColor('btn-TL');
 };
 ///////////////////UNITS LEFT///////////////////
 
